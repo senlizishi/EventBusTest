@@ -11,4 +11,5 @@
 
 ### 参考文章
 - [EventBus Demo](https://www.cnblogs.com/crazymakercircle/p/17046275.html)
+- [EventBus 深度解析](https://developer.aliyun.com/article/657112)
 - [EventBus 消息丢失](https://juejin.cn/s/guava%20eventbus%20%E4%B8%A2%E5%A4%B1%E4%BF%A1%E6%81%AF)
