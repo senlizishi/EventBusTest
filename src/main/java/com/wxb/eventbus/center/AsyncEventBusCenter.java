@@ -8,8 +8,8 @@ public class AsyncEventBusCenter {
 
     private static AsyncEventBus asyncEventBus;
 
-    private static ThreadPoolExecutor executor = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors(), Runtime.getRuntime().availableProcessors() * 2, 60L, TimeUnit.SECONDS,
-            new LinkedBlockingQueue<>(2048));
+    private static ThreadPoolExecutor executor = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors() * 2, Runtime.getRuntime().availableProcessors() * 3, 60L, TimeUnit.SECONDS,
+            new LinkedBlockingQueue<>(1000));
 
     private static AsyncEventBus getAsynEventBus() {
         if (asyncEventBus == null) {
